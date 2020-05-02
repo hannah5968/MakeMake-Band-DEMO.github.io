@@ -383,19 +383,25 @@ html {
   transform: translate3d(0, 0, 0);
 }
 
-.footer {
-  height: 80px;
+.footer{
+  height:80px;
   background: #e38eab;
-  display: flex;
+  display:flex;
+  padding-top:24px;
+  justify-content:space-around;
+  text-align:center;
+  align-content:center;
+  font-size:20px;
 }
-
-.footer {
-  padding-top: 24px;
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  align-content: center;
-  font-size: 20px;
+.follow{
+  i{
+    padding:3px;
+  }
+  a {
+    font-size: 24px;
+    color:#231816;
+    text-decoration:none;
+  }
 }
 
 .fa-facebook-square:hover {
