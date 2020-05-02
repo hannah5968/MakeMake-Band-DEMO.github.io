@@ -278,7 +278,7 @@ html {
 .event-section .event-info-container {
   height: 360px;
   padding: 24px;
-  background-color: light-gray;
+  background-color: lightgray;
   margin-bottom: 40px;
 }
 .event-section .event-info-container .info {
@@ -393,18 +393,17 @@ html {
   align-content:center;
   font-size:20px;
 }
-.follow{
-  i{
-    padding:3px;
-    color:#231816;
-    
-  }
-  a {
-    font-size: 24px;
-    color:#231816;
-    text-decoration:none;
-  }
+
+.follow i {
+  padding:3px;
 }
+.follow a {
+  font-size: 24px;
+  color:#231816;
+  text-decoration:none;
+}
+
+
 
 .fa-facebook-square:hover {
   color: white !important;
